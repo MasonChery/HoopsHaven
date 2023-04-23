@@ -1,0 +1,551 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.banner{
+    width: 100;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(HooperHaven.jpg); 
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.copyright p {
+    bottom:59px;
+    color: #fff;
+}
+
+footer{
+    text-align: left;
+    padding-top: 53.2em;
+    
+
+}
+.navbar{
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: right;
+font-size: larger;
+}
+
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0% 20px;
+position: relative;
+}
+
+.navbar ul li a{
+text-decoration: solid;
+color: white;
+text-transform:uppercase;
+}
+
+.navbar ul li::after{
+content:'';
+height: 3px;
+width: 0%;
+background: orangered;
+position: absolute;
+left: 0%;
+bottom: -10px;
+transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+width: 100%;
+}
+
+
+.content{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+Color: white
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 15px;
+    font-size: large;
+}
+
+button{
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bold;
+border: 1px solid orangered;
+color: #fff;
+cursor: pointer;
+background: transparent;
+font-size: larger;
+position: relative;
+overflow: hidden;
+}
+
+span{
+background: orangered;
+height: 100%;
+width:0;
+border-radius: 20px;
+position: absolute;
+left: 0%;
+bottom: 0%;
+z-index: -1;
+transition: 0.5s;
+}
+
+button:hover span{
+width: 100%;
+}
+
+button:hover span{
+border: none;
+}
+
+
+.Picture{
+width: 100;
+height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Court.jpg); 
+background-size: contain;
+background-position: center;
+}
+
+
+
+.bar{
+width: 85%;
+margin: auto;
+padding: 35px 0;
+ display: flex;
+align-items: center;
+justify-content: right;
+font-size: larger;
+    }
+    
+.bar ul li{
+list-style: none;
+display: inline-block;
+margin: 0% 20px;
+position: relative;
+    }
+    
+.bar ul li a{
+text-decoration: solid;
+color: rgb(255, 255, 255);
+text-transform:uppercase;
+    }
+    
+.bar ul li::after{
+content:'';
+height: 3px;
+width: 0%;
+background: orangered;
+position: absolute;
+left: 0%;
+bottom: -10px;
+transition: 0.5s;
+    }
+    
+.bar ul li:hover::after{
+width: 100%;
+    }
+
+.Text{
+width: 100%;
+position: absolute;
+top:20%;
+transform: translateY(-50%);
+text-align: center;
+Color: rgb(255, 255, 255)
+}
+
+.Text h1{
+font-size: 70px;
+margin-top: 80px;
+
+}
+
+.logo {
+width: 400px;
+margin-left: 749px;
+padding-top: 8%;
+}
+
+
+.word{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+Color: white
+ }
+
+ .word p {
+margin: 20px auto;
+font-weight: 200;
+line-height: 20px;
+font-size: large;
+padding-top: 10%;
+font-style: bold;
+text-align:center;
+font-family: monospace;
+ }
+
+ .Photograph{
+width: 100;
+height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/sunset.jpg); 
+background-size: contain;
+background-position: center;
+    
+}
+
+
+
+
+.navi{
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: right;
+font-size: larger;
+}
+
+.navi ul li{
+list-style: none;
+display: inline-block;
+margin: 0% 20px;
+position: relative;
+}
+
+.navi ul li a{
+text-decoration: solid;
+color: white;
+text-transform:uppercase;
+}
+
+.navi ul li::after{
+content:'';
+height: 3px;
+width: 0%;
+background: orangered;
+position: absolute;
+left: 0%;
+bottom: -10px;
+transition: 0.5s;
+}
+
+.navi ul li:hover::after{
+width: 100%;
+}
+
+
+.Letters{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+Color: white
+     }
+
+.Letters h2{
+font-size: 40px;
+margin-bottom: 500px;
+margin-right: 1259px;
+font-family: comic sans-serif;
+}
+
+.para{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+Color: white
+}
+.para  p {
+font-weight: 100px;
+line-height: 15px;
+font-size:medium;
+margin-right: 530px;
+text-align: center;
+text-size-adjust: left;
+margin-bottom: 400px;
+}
+
+.email{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+Color: white
+}
+
+.email h3{
+font-size: 25px;
+margin-bottom: 310px;
+margin-right: 1350px;
+font-family: comic sans-serif;
+}
+
+.return{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+Color: white
+}
+
+.return h2{
+font-size: 25px;
+margin-bottom: 200px;
+margin-right: 1125px;
+font-family: comic sans-serif;
+}
+
+ol{
+margin-top: 320px;
+margin-left: 250px;
+}
+
+li{
+color: #fff;
+margin: 10px;
+}
+
+.contact{
+width: 500px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0 0 20px 0 0 #999;
+top:50%;
+left: 505px;
+transform: translate(-50%,-50%);
+position: absolute;
+}
+
+form{
+margin: 30px;
+position: absolute;
+margin-left: 1px;
+}
+
+.input-field{
+width: 400px;
+height: 40px;
+margin-top: 20px;
+padding-left: 10px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 14px;
+outline: none;
+}
+
+.textarea-field{
+height: 120px;
+padding-top: 10px;
+}
+
+.btn{
+
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: orangered;
+    font-size: 12px;
+    border:none;
+    cursor: pointer;
+}
+
+
+.back{
+ width: 100;
+height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Allen.jpg); 
+background-size: contain;
+background-position: center;
+    
+}
+
+
+
+
+.navig{
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: right;
+font-size: larger;
+}
+
+.navig ul li{
+list-style: none;
+display: inline-block;
+margin: 0% 20px;
+position: relative;
+}
+
+.navig ul li a{
+text-decoration: solid;
+color: white;
+text-transform:uppercase;
+}
+
+.navig ul li::after{
+content:'';
+height: 3px;
+width: 0%;
+background: orangered;
+position: absolute;
+left: 0%;
+bottom: -10px;
+transition: 0.5s;
+}
+
+.navig ul li:hover::after{
+width: 100%;
+}
+
+.shop-content{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(360px, auto));  
+gap: 1.3rem;  
+align-items: center;
+cursor: pointer;
+padding-top: 6rem;
+text-align: center;
+}
+
+.product-box{
+padding: 0px 20px 10px 20px;
+background: rgb(255, 255, 255);
+box-shadow: 5px 30px 45.1276px rgb(0, 0, 0);
+position: relative;
+transition: all .35 ease;
+align-items: center;
+border-radius: 10px;
+margin: 20px;
+}
+
+.product image{
+align-items: center;
+}
+
+
+.img{
+    width: 100;
+   height: 100vh;
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(outside.jpg); 
+   background-size: contain;
+   background-position: center;
+       
+   }
+
+   .copyright p {
+    bottom:59px;
+    color: #fff;
+}
+
+footer{
+    text-align: left;
+    padding-top: 53.2em;
+}
+
+   
+   .naviga{
+   width: 85%;
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   font-size: larger;
+   }
+   
+   .naviga ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0% 20px;
+   position: relative;
+   }
+   
+   .naviga ul li a{
+   text-decoration: solid;
+   color: white;
+   text-transform:uppercase;
+   }
+   
+   .naviga ul li::after{
+   content:'';
+   height: 3px;
+   width: 0%;
+   background: orangered;
+   position: absolute;
+   left: 0%;
+   bottom: -10px;
+   transition: 0.5s;
+   }
+   
+   .naviga ul li:hover::after{
+   width: 100%;
+   }
+
+   .shop-contentt{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));  
+    gap: 1.3rem;  
+    align-items: center;
+    cursor: pointer;
+    padding-top: 6rem;
+    text-align: center;
+    }
+    
+    .product-boxx{
+    padding: 0px 20px 10px 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 30px 45.1276px rgb(0, 0, 0);
+    position: relative;
+    transition: all .35 ease;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    }
+    
+    .product image{
+    align-items: center;
+    }
+
+
+
+    
+
+
+
